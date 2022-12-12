@@ -24,9 +24,9 @@ def dzielenie(a, b):
 
 
 def kalk(a, b, znak):
-    a = wpisz_liczbe()
-    znak = wpisz_znak()
-    b = wpisz_liczbe()
+    # a = wpisz_liczbe()
+    # znak = wpisz_znak()
+    # b = wpisz_liczbe()
     if (znak == "+"):
         result = dodawanie(a, b)
     if (znak == "-"):
@@ -35,7 +35,7 @@ def kalk(a, b, znak):
         result = mnozenie(a, b)
     if (znak == "/"):
         result = dzielenie(a, b)
-    wypisz(result)
+    # wypisz(result)
     return result
 
 
